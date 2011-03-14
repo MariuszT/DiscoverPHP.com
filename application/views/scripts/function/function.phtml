@@ -10,7 +10,7 @@ if (isset($this->forms) AND is_array($this->forms) AND !empty($this->forms)) {
             echo '<table class="description">';
 
             if (isset($form['description']->php_versions) AND $form['description']->php_versions != '') {
-                echo '<tr><td class="description-name" class="description-name">', $this->translate('PHP versions'), '</td><td>', $this->translate($form['description']->php_versions), '</td></tr>';
+                echo '<tr><td class="description-name">', $this->translate('PHP versions'), '</td><td>', $this->translate($form['description']->php_versions), '</td></tr>';
             }
 
             if (isset($form['description']->long) AND $form['description']->long != '') {

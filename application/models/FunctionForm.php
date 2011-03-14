@@ -92,7 +92,6 @@ class Application_Model_FunctionForm
 
     private function _functionExec($function = NULL, $content = '')
     {
-
         $request = Zend_Controller_Front::getInstance()->getRequest();
 
         if ($function == NULL) {
@@ -173,37 +172,6 @@ class Application_Model_FunctionForm
                 return $function($content);
                 break;
         }
-    }
-
-    public static function buildNavigation()
-    {
-        $config = array();
-
-        foreach (Zend_Registry::get('functions') AS $elementName => $function) {
-            if ($function->menu == TRUE) {
-
-                if (isset($function->redirect)) {
-                    $elementLink = $function->redirect;
-                    $anchor = $elementName;
-                } else {
-                    $elementLink = $elementName;
-                    $anchor = $elementName;
-                }
-
-                $config[] = array(
-                    'label'      => $elementName,
-                    'title'      => $elementName,
-                    'module'     => 'default',
-                    'controller' => 'function',
-                    'action'     => 'function',
-                    'route'      => 'functions',
-                    'params'     => array('function' => $elementLink),
-                    'anchor'     => $anchor
-                );
-            }
-        }
-
-        return $config;
     }
 }
 
