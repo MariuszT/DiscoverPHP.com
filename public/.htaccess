@@ -1,9 +1,7 @@
 SetEnv APPLICATION_ENV development
 
 <IfModule mod_php5.c>
-  php_value magic_quotes_gpc   0
-  php_value register_globals   0
-  php_value session.auto_start 0
+  php_value magic_quotes_gpc 0
 </IfModule>
 
 RewriteEngine On
