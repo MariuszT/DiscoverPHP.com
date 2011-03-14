@@ -1,0 +1,382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DiscoverPHP.com\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-11 01:56+0100\n"
+"PO-Revision-Date: 2011-03-14 15:24+0100\n"
+"Last-Translator: Mariusz Tarnaski <mariusz.tarnaski@wp.pl>\n"
+"Language-Team:  <mariusz.tarnaski@wp.pl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate;_;setLabel;setValue;setMessage;setLegend;_refresh;append;prepend\n"
+"X-Poedit-Basepath: C:\\usr\\htdocs\\discoverphp.com\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: application\n"
+
+#: application/forms/Function.php:12
+msgid "source data for"
+msgstr "dane źródłowe dla"
+
+#: application/forms/Function.php:17
+msgid "result"
+msgstr "rezultat"
+
+#: application/forms/Function.php:20
+msgid "use"
+msgstr "użyj"
+
+#: application/forms/Function.php:31
+msgid "copy to"
+msgstr "kopiuj do"
+
+#: application/layouts/scripts/layout.phtml:32
+#, php-format
+msgid "DiscoverPHP.com is an open source project to learn Zend Framework. Come <a href=\"%s\">here</a> for more informations."
+msgstr "DiscoverPHP.com to projekt o otwartym kodzie źródłowym do nauki Zend Framework. Chodź <a href=\"%s\">tutaj</a> po więcej informacji."
+
+#: application/layouts/scripts/layout.phtml:53
+msgid "Home"
+msgstr "Główna"
+
+#: application/layouts/scripts/layout.phtml:54
+msgid "Genesis"
+msgstr "Geneza"
+
+#: application/layouts/scripts/layout.phtml:55
+msgid "Download source"
+msgstr "Pobierz źródło"
+
+#: application/layouts/scripts/layout.phtml:56
+msgid "Contact"
+msgstr "Kontakt"
+
+#: application/views/scripts/menu.phtml:3
+msgid "select PHP function"
+msgstr "wybierz funkcję PHP"
+
+#: application/views/scripts/function/function.phtml:12
+msgid "PHP versions"
+msgstr "Wersje PHP"
+
+#: application/views/scripts/function/function.phtml:16
+msgid "Description"
+msgstr "Opis"
+
+#: application/views/scripts/function/function.phtml:20
+msgid "Manual"
+msgstr "Pomoc"
+
+#: application/views/scripts/index/index.phtml:1
+msgid "Sometimes you need to quickly use some functions in PHP such as base64_encode or generate the MD5 hash. Creating a new PHP script for such a trivial action is a waste of time. This page comes with the help. In a simple and quick way you can use many functions of PHP."
+msgstr "Czasami musisz szybko użyć jakiejś funkcji w PHP np. base64_encode lub wygenerować hash MD5. Tworzenie nowego skryptu PHP dla tak banalnych czynności jest stratą czasu. Ta strona przychodzi z pomocą. W prosty i szybki sposób możesz użyć wielu funkcji języka PHP."
+
+#: application/views/scripts/index/index.phtml:3
+msgid "None of the data that you enter in forms are stored in database!"
+msgstr "Żadne dane, które wpisujesz w formularzach nie są zapisywane w bazie danych!"
+
+#: application/views/scripts/index/index.phtml:5
+#, php-format
+msgid "Page DiscoverPHP.com was created as a place to learn the <a href=\"http://framework.zend.com/\" target=\"_blank\">Zend Framework</a>. On the page \"<a href=\"%s\">Genesis</a>\" you can read more about it and on the page \"<a href=\"%s\">Download source</a>\" you can download the source code."
+msgstr "Strona DiscoverPHP.com została stworzona jako miejsce do nauki <a href=\"http://framework.zend.com/\" target=\"_blank\">Zend Framework</a>. Na stronie \"<a href=\"%s\">Geneza</a>\" możesz poczytać o tym więcej a na stronie \"<a href=\"%s\">Pobierz źródło</a>\" możesz pobrać kod źródłowy."
+
+#: application/views/scripts/page/genesis.phtml:2
+msgid "Zend Framework is a powerful tool. Unfortunately, its complexity makes it difficult to start working. I decided to learn the Zend Framework on a specific project. This is how DiscoverPHP.com was created.<br /><br />On the internet you can find examples of simple or very complex applications. Missing something intermediate. I would like to fill this gap, so I decided to release the source code of DiscoverPHP.com."
+msgstr "Zend Framework jest potężnym narzędziem. Niestety, jego złożoność sprawia, że rozpoczęcie pracy z nim jest trudne. Postanowiłem uczyć się Zend Framework na konkretnym projekcie. Tak powstała strona discoverphp.com.<br /><br />W internecie można znaleźć proste lub bardzo złożone przykłady zastosowań. Brakuje czegoś pośredniego. Chciałbym wypełnić tą lukę, dlatego zdecydowałem się udostępnić kod źródłowy discoverphp.com."
+
+#: application/views/scripts/page/genesis.phtml:4
+msgid "I've used on this page HTML5 and CSS 3. I did it with premeditation so if something don't work or look bad, update/change your browser."
+msgstr "Użyłem na tej stronie HTML5 i CSS 3. Zrobiłem to z premedytacją więc jeżeli coś nie działa lub wygląda źle, zaktualizuj/zmień swoją przeglądarkę."
+
+#: application/views/scripts/page/genesis.phtml:6
+msgid "What can you learn from the code"
+msgstr "Czego możesz się nauczyć z kodu"
+
+#: application/views/scripts/page/genesis.phtml:8
+msgid "basic configuration"
+msgstr "podstawowa konfiguracja"
+
+#: application/views/scripts/page/genesis.phtml
+msgid "how to use %s"
+msgstr "jak używać %s"
+
+#: application/views/scripts/page/genesis.phtml:18
+msgid "how to build own helpers"
+msgstr "jak budować własne helpery"
+
+#: application/views/scripts/page/genesis.phtml:19
+msgid "how to build own plugins"
+msgstr "jak budować własne pluginy"
+
+#: application/views/scripts/page/genesis.phtml:20
+msgid "HTML5 and CSS 3"
+msgstr "HTML5 i CSS 3"
+
+#: application/views/scripts/page/genesis.phtml:23
+msgid "and many, many more"
+msgstr "i wiele, wiele więcej"
+
+#: application/views/scripts/page/genesis.phtml:25
+msgid "TODO list"
+msgstr "Lista do zrobienia"
+
+#: application/views/scripts/page/genesis.phtml:27
+msgid "add comments"
+msgstr "dodać komentarze"
+
+#: application/views/scripts/page/genesis.phtml:28
+msgid "split application into modules (and add admin module)"
+msgstr "podzielić aplikację na moduły (i dodać moduł admina)"
+
+#: application/views/scripts/page/genesis.phtml
+msgid "use %s"
+msgstr "użyć %s"
+
+#: application/views/scripts/page/genesis.phtml:30
+msgid "use %s and %s"
+msgstr "użyć %s i %s"
+
+#: application/views/scripts/page/genesis.phtml:39
+msgid "and it is only the beginning"
+msgstr "i to tylko początek"
+
+#: application/views/scripts/page/genesis.phtml:41
+msgid "Used version of Zend Framework"
+msgstr "Użyta wersja Zend Framework"
+
+#: application/views/scripts/page/genesis.phtml:43
+msgid "Go for the"
+msgstr "Idź po"
+
+#: application/views/scripts/page/genesis.phtml:43
+msgid "source code"
+msgstr "kod źródłowy"
+
+#: application/views/scripts/page/source.phtml:2
+msgid "DiscoverPHP.com is an open source project written in Zend Framework (PHP). Here you can get source files."
+msgstr "DiscoverPHP.com to projekt o otwartym kodzie źródłowym, napisany w Zend Framework (PHP). Tutaj możesz pobrać pliki źródłowe."
+
+#: application/views/scripts/page/source.phtml:15
+msgid "latest version"
+msgstr "najnowsza wersja"
+
+#: application/views/scripts/page/contact.phtml:2
+msgid "If you need to contact me, please use this email address"
+msgstr "Jeżeli musisz się ze mną skontaktować, proszę użyj tego adresu e-mail"
+
+#: Errors descriptions
+msgid "Oops! An error occurred"
+msgstr "Ups! Wystąpił błąd"
+
+msgid "Hello! This is an error page"
+msgstr "Witaj! To jest strona błędu"
+
+msgid "Page not found"
+msgstr "Strona nie została znaleziona"
+
+msgid "Application error"
+msgstr "Błąd aplikacji"
+
+#: Functions descriptions
+msgid "Quote string with slashes"
+msgstr "Dodaje znak ucieczki przed znakami niebezpiecznymi"
+
+msgid "Returns a string with backslashes before characters that need to be quoted in database queries etc. These characters are single quote ('), double quote (&quot;), backslash (\\) and NUL (the NULL byte)."
+msgstr "Zwraca ciąg znaków, który został zabezpieczony przed niebezpiecznymi znakami, znakiem ucieczki '\\' (back slash) co jest potrzebne w zapytaniach do bazy danych etc. Te znaki zapytania to pojedynczy cudzysłów ('), podwójny cudzysłów (&quot;), backslash (\\) i NUL (bajt NULL)."
+
+msgid "Decodes data encoded with MIME base64"
+msgstr "Dekoduje dane zakodowane algorytmem MIME base64"
+
+msgid "Decodes a base64 encoded data."
+msgstr "Dekoduje dane zakodowane przez base64."
+
+msgid "Encodes data with MIME base64"
+msgstr "Koduje dane za pomocą algorytmu MIME base64"
+
+msgid "Encodes the given data with base64.<br /><br />This encoding is designed to make binary data survive transport through transport layers that are not 8-bit clean, such as mail bodies.<br /><br />Base64-encoded data takes about 33% more space than the original data."
+msgstr "Zwraca dane zakodowane za pomocą algorytmu base64.<br /><br />Ten sposób kodowania został zaprojektowany, aby móc bezpiecznie przesyłać dane binarne, poprzez warstwy transportujące nie zaprojektowane do obsługi 8 bitowego przesyłania informacji, np. treść emaili.<br /><br />Dane zakodowane tą funkcją zajmują ok 33% więcej miejsca niż dane oryginalne."
+
+msgid "Convert binary data into hexadecimal representation"
+msgstr "Konwertuje wartość w formacie binarnym na hexadecymalny"
+
+msgid "Returns an ASCII string containing the hexadecimal representation of string. The conversion is done byte-wise with the high-nibble first."
+msgstr "Zwraca string ASCII zawierający hexadecymalną reprezentację stringa."
+
+msgid "Calculates the crc32 polynomial of a string"
+msgstr "Oblicza crc32 wielomian z ciągu"
+
+msgid "Generates the cyclic redundancy checksum polynomial of 32-bit lengths of the string. This is usually used to validate the integrity of data being transmitted.<br /><br />Because PHP's integer type is signed, and many crc32 checksums will result in negative integers, you need to use the &quot;%u&quot; formatter of sprintf() or printf() to get the string representation of the unsigned crc32 checksum."
+msgstr "Generuje z łańcucha znaków cykliczną nadmiarową sumę kontrolną wielomianu o długości 32 bitów. Jest to zwykle wykorzystywane do sprawdzania integralności przekazywanych danych.<br /><br />Ponieważ typ integer w PHP jest liczbą całkowitą i wiele sum kontrolnych crc32 jest ujemnych, należy użyć formatu &quot;%u&quot; w sprintf() lub printf() aby uzyskać dodatnią reprezentację ciągu sumy kontrolnej crc32."
+
+msgid "Split a string by string"
+msgstr "Rozbija ciąg znaków za pomocą innego ciągu znaków"
+
+msgid "Returns an array of strings, each of which is a substring of string formed by splitting it on boundaries formed by the string delimiter."
+msgstr "Zwraca tablicę ciągów znaków gdzie każdy z tych ciągów znaków jest częścią wejściowego ciągu znaków i każdy z tych ciągów powstał przez podzielenie wejściowego ciągu na granicy utworzonej przez ogranicznik ciągu."
+
+msgid "Generate a hash value (message digest) with MD4 algorithm"
+msgstr "Generuje zahashowaną (suma kontrolna) wartość algorytmem MD4"
+
+msgid "Returns a string containing the calculated message digest as lowercase hexits."
+msgstr "Zwraca łańcuch zawierający obliczony skrót wiadomości jako małe znaki szesnastkowe."
+
+msgid "Calculate the MD5 hash of a string"
+msgstr "Obliczanie sumy kontrolnej ciągu znaków za pomocą MD5"
+
+msgid "Calculates the MD5 hash of string using the RSA Data Security, Inc. MD5 Message-Digest Algorithm, and returns that hash."
+msgstr "Oblicza sumę kontrolną ciągu znaków za pomocą MD5 używając RSA Data Security, Inc. MD5 Message-Digest Algorithm i zwraca tą sumę kontrolną."
+
+msgid "Calculate the metaphone key of a string"
+msgstr "Obliczanie klucza metaphone ciągu znaków"
+
+msgid "Calculates the metaphone key of string.<br /><br />Similar to soundex() metaphone creates the same key for similar sounding words. It's more accurate than soundex() as it knows the basic rules of English pronunciation. The metaphone generated keys are of variable length."
+msgstr "Oblicza klucz metaphone ciągu znaków.<br /><br />Podobnie do soundex() metaphone tworzy taki sam klucz do podobno brzmiących słów. Jest to bardziej dokładne niż soundex(), ponieważ zna podstawowe zasady wymowy angielskiej. W metaphone generowane są klucze o zmiennej długości."
+
+msgid "Inserts HTML line breaks before all newlines in a string"
+msgstr "Wstawia tag HTML odpowiedzialny za łamanie linii przed wszystkimi nowymi liniami w ciągu znaków"
+
+msgid "Returns string with '<br />' or '<br>' inserted before all newlines."
+msgstr "Zwraca ciąg znaków z '<br />' lub '<br>' wstawionymi przed wszystkimi nowymi liniami."
+
+msgid "Decodes a JSON string"
+msgstr "Dekoduje ciąg znaków JSON"
+
+msgid "Takes a JSON encoded string and converts it into a PHP variable."
+msgstr "Bierze zakodowany ciąg znaków JSON a konwertuje go do zmiennej PHP."
+
+msgid "Returns the JSON representation of a value"
+msgstr "Zwraca reprezentację JSON danej wartości"
+
+msgid "Returns a string containing the JSON representation of value."
+msgstr "Zwraca ciąg znaków zawierający reprezentację JSON danej wartości."
+
+msgid "Make a string's first character lowercase"
+msgstr "Zamienia pierwsze znaki ciągu znaków na małe"
+
+msgid "Returns a string with the first character of string lowercased if that character is alphabetic.<br /><br />Note that 'alphabetic' is determined by the current locale. For instance, in the default &quot;C&quot; locale characters such as umlaut-a (ä) will not be converted."
+msgstr "Zwraca ciag znaków z małymi pierwszymi znakami jeżeli te znaki są alfabetyczne.<br /><br />Zauważ, że 'alfabetyczne' jest zależne od aktualnych ustawień regionalnych. Na przykład w domyślnym &quot;C&quot; regionalne znaki jak umlaut-a (ä) nie będą przekonwertowane."
+
+msgid "Calculate the sha1 hash of a string"
+msgstr "Obliczanie sumy kontrolnej ciągu znaków za pomocą sha1"
+
+msgid "Calculates the sha1 hash of string using the US Secure Hash Algorithm 1."
+msgstr "Oblicza sumę kontrolną ciągu znaków za pomocą sha1 używając Secure Hash Algorithm 1."
+
+msgid "Generate a hash value (message digest) with sha256 algorithm"
+msgstr "Generuje zahashowaną (suma kontrolna) wartość algorytmem sha256"
+
+msgid "Generate a hash value (message digest) with sha384 algorithm"
+msgstr "Generuje zahashowaną (suma kontrolna) wartość algorytmem sha384"
+
+msgid "Generate a hash value (message digest) with sha512 algorithm"
+msgstr "Generuje zahashowaną (suma kontrolna) wartość algorytmem sha512"
+
+msgid "Calculate the soundex key of a string"
+msgstr "Obliczanie klucza soundex ciągu znaków"
+
+msgid "Calculates the soundex key of string.<br /><br />Soundex keys have the property that words pronounced similarly produce the same soundex key, and can thus be used to simplify searches in databases where you know the pronunciation but not the spelling. This soundex function returns a string 4 characters long, starting with a letter."
+msgstr "Oblicza klucz soundex ciągu znaków.<br /><br />Klucze soundex mają tą właściwość, że słowa wypowiadane w podobny sposób produkują taki sam klucz soundex a więc mogą być stosowane w celu uproszczenia wyszukiwania w bazach danych gdy znasz wymowę ale nie pisownię. Funkcja soundex zwraca łańcuch 4 znaków, począwszy od litery."
+
+msgid "Perform the rot13 transform on a string"
+msgstr "Wykona transformację ROT13 na ciągu znaków"
+
+msgid "Performs the ROT13 encoding on the string argument and returns the resulting string.<br /><br />The ROT13 encoding simply shifts every letter by 13 places in the alphabet while leaving non-alpha characters untouched. Encoding and decoding are done by the same function, passing an encoded string as argument will return the original version."
+msgstr "Wykonuje kodowanie ROT13 na ciągu znaków i zwraca rezultat w postaci ciągu znaków<br /><br />ROT13 koduje poprzez proste przesuwanie każdej litery o 13 miejsc w alfabecie pozostawiając nienaruszonym niealfanumeryczne znaki. Kodowanie i dekodowanie są dokonywane za pomocą tej samej funkcji, przekazanie zakodowanego ciągu znaków jako argument zwróci oryginalną wersję."
+
+msgid "Randomly shuffles a string"
+msgstr "Losową miesza ciąg znaków"
+
+msgid "str_shuffle() shuffles a string. One permutation of all possible is created."
+msgstr "str_shuffle() miesza ciąg znaków. Tworzona jest jedna permutacja ze wszystkich możliwości."
+
+msgid "Return information about words used in a string"
+msgstr "Zwraca informacje o wyrazach użytych w ciągu znaków"
+
+msgid "Counts the number of words inside string. If the optional format is not specified, then the return value will be an integer representing the number of words found. In the event the format is specified, the return value will be an array, content of which is dependent on the format.<br /><br />For the purpose of this function, 'word' is defined as a locale dependent string containing alphabetic characters, which also may contain, but not start with &quot;'&quot; and &quot;-&quot; characters."
+msgstr "Liczy liczbę wyrazów w ciągu znaków. Jeżeli opcjonalny format nie jest ustawiony, wtedy zwracana wartość będzie liczbą reprezentującą liczbę znalezionych wyrazów. Gdy format jest ustalony, zwracana wartość będzie tablicą, której zawartość zależy od formatu.<br /><br />Dla celów tej funkcji, 'wyraz' jest zdefiniowany jako ciąg zależny od lokalizacji zawierający znaki alfabetu, który również może zawierać ale nie zaczynać się od znaków &quot;'&quot; i &quot;-&quot;."
+
+msgid "Strip HTML and PHP tags from a string"
+msgstr "Usuwa tagi HTML i PHP z ciągu znaków"
+
+msgid "This function tries to return a string with all NUL bytes, HTML and PHP tags stripped from a given string. It uses the same tag stripping state machine as the fgetss() function."
+msgstr "Ta funkcja próbuje zwrócić ciąg znaków z usuniętymi z danego ciągu bajtami NUL, tagami HTML i PHP. Używa tego samego mechanizmu usuwania tagów co funkcja fgetss()."
+
+msgid "Un-quotes a quoted string"
+msgstr "Usuwa znaki ucieczki z ciągu znaków"
+
+msgid "Un-quotes a quoted string."
+msgstr "Usuwa znaki ucieczki z ciągu znaków."
+
+msgid "Get string length"
+msgstr "Podaje długość ciągu znaków"
+
+msgid "Returns the length of the given string."
+msgstr "Zwraca długość podanego ciągu znaków."
+
+msgid "Make a string lowercase"
+msgstr "Zamienia litery w ciągu znaków na małe"
+
+msgid "Returns string with all alphabetic characters converted to lowercase.<br /><br />Note that 'alphabetic' is determined by the current locale. This means that in i.e. the default &quot;C&quot; locale, characters such as umlaut-A (Ä) will not be converted."
+msgstr "Zwraca ciąg znaków z wszystkimi alfabetycznymi znakami skonwertowanymi na małe.<br /><br />Zauważ, że 'alfabetyczne' jest zależne od aktualnych ustawień regionalnych. Na przykład w domyślnym &quot;C&quot; regionalne znaki jak umlaut-A (Ä) nie będą przekonwertowane."
+
+msgid "Make a string uppercase"
+msgstr "Zamienia litery w ciągu znaków na duże"
+
+msgid "Returns string with all alphabetic characters converted to uppercase.<br /><br />Note that 'alphabetic' is determined by the current locale. For instance, in the default &quot;C&quot; locale characters such as umlaut-a (ä) will not be converted."
+msgstr "Zwraca ciąg znaków z wszystkimi alfabetycznymi znakami skonwertowanymi na duże.<br /><br />Zauważ, że 'alfabetyczne' jest zależne od aktualnych ustawień regionalnych. Na przykład w domyślnym &quot;C&quot; regionalne znaki jak umlaut-a (ä) nie będą przekonwertowane."
+
+msgid "Make a string's first character uppercase"
+msgstr "Zamienia pierwsze litery ciągu znaków na duże"
+
+msgid "Returns a string with the first character of string capitalized, if that character is alphabetic.<br /><br />Note that 'alphabetic' is determined by the current locale. For instance, in the default &quot;C&quot; locale characters such as umlaut-a (ä) will not be converted."
+msgstr "Zwraca ciąg znaków z pierwszym dużym znakiem danego ciągu jeżeli ten znak jest alfabetyczny.<br /><br />Zauważ, że 'alfabetyczne' jest zależne od aktualnych ustawień regionalnych. Na przykład w domyślnym &quot;C&quot; regionalne znaki jak umlaut-a (ä) nie będą przekonwertowane."
+
+msgid "Uppercase the first character of each word in a string"
+msgstr "Zamienia pierwsze znaki na duże dla każdego wyrazu w ciągu znaków"
+
+msgid "Returns a string with the first character of each word in string capitalized, if that character is alphabetic.<br /><br />The definition of a word is any string of characters that is immediately after a whitespace (These are: space, form-feed, newline, carriage return, horizontal tab, and vertical tab)."
+msgstr "Zwraca ciąg znaków z dużym znakiem dla każdego wyrazu w ciągu znaków jeżeli ten znak jest alfabetyczny.<br /><br />Definicja wyrazu to każdy ciąg znaków tuż po białym znaku (To są: spacja, wysunięcie strony, nowa linia, powrót karetki, horyzontalny poziomy i pionowy tabulator)."
+
+#: Functions titles
+msgid "MIME base64 functions"
+msgstr "funkcje MIME base64"
+
+msgid "hash functions: md4, sha256, sha384, sha512"
+msgstr "funkcje hash: md4, sha256, sha384, sha512"
+
+msgid "JSON functions"
+msgstr "funkcje JSON"
+
+msgid "operate on string case"
+msgstr "operacje na wielkości znaków w stringach"
+
+#: Functions errors messages
+msgid "Value is required and can't be empty"
+msgstr "Wartość jest wymagana, nie może być pusta"
+
+msgid "FALSE - this is not base64 encoded data"
+msgstr "FAŁSZ - to nie jest wartość zakodowane w base64"
+
+msgid "NULL - this is not JSON encoded data"
+msgstr "NULL - to nie jest wartość zakodowana w JSON"
+
+#: Router translation
+msgid "genesis"
+msgstr "geneza"
+
+msgid "source"
+msgstr "zrodlo"
+
+msgid "contact"
+msgstr "kontakt"
+
+#: Languages translation
+msgid "english"
+msgstr "angielski"
+
+msgid "polish"
+msgstr "polski"
+

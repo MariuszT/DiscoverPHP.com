@@ -1,0 +1,9 @@
+<?php
+echo '<menu>';
+echo '<li id="menu-title">', $this->translate('select PHP function'), '</li>';
+foreach ($this->container as $page) {
+    $isActive = $page->isActive(false);
+    $liClass = $isActive ? ' class="active"' : '';
+    echo '<li ' . $liClass . '>' . $this->anchorMenu()->htmlify($page) . '</li>', PHP_EOL;
+}
+echo '</menu>';

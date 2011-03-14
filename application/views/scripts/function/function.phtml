@@ -1,0 +1,37 @@
+<article id="function_page">
+<?php
+if (isset($this->forms) AND is_array($this->forms) AND !empty($this->forms)) {
+    foreach ($this->forms AS $form) {
+
+        echo '<div class="function">';
+        echo '<h2 id="', $form['form']->getName(), '">', $form['form']->getName(), '</h2>';
+
+        if (isset($form['description'])) {
+            echo '<table class="description">';
+
+            if (isset($form['description']->php_versions) AND $form['description']->php_versions != '') {
+                echo '<tr><td class="description-name" class="description-name">', $this->translate('PHP versions'), '</td><td>', $this->translate($form['description']->php_versions), '</td></tr>';
+            }
+
+            if (isset($form['description']->long) AND $form['description']->long != '') {
+                echo '<tr><td class="description-name">', $this->translate('Description'), '</td><td>', $this->translate($form['description']->long), '</td></tr>';
+            }
+
+            if (isset($form['description']->manual) AND $form['description']->manual != '') {
+                echo '<tr><td class="description-name">', $this->translate('Manual'), '</td><td><a href="http://', $form['description']->manual, '"';
+                if (isset($form['description']->short) AND $form['description']->short != '') {
+                    echo ' title="', $this->translate($form['description']->short), '"';
+                }
+                echo ' target="_blank">', $form['description']->manual, '</a></td></tr>';
+            }
+
+            echo '</table>';
+        }
+
+        echo $form['form'];
+
+        echo '</div>';
+    }
+}
+?>
+</article>

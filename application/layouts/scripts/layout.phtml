@@ -1,0 +1,74 @@
+<?php
+echo $this->doctype();
+?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo Zend_Registry::get('Zend_Translate')->getLocale(); ?>" lang="<?php echo Zend_Registry::get('Zend_Translate')->getLocale(); ?>">
+<head>
+<?php echo $this->headMeta(); ?>
+<?php echo $this->headTitle(); ?>
+<?php echo $this->headLink()->appendStylesheet($this->baseUrl() . '/style.css'); ?>
+</head>
+<body>
+
+<div id="page">
+
+<header>
+<div id="languages">
+<?php
+foreach (Zend_Registry::get('languages') AS $langShortcut => $langInfo) {
+?>
+<a href="<?php echo $this->url(array('language' => $langShortcut, '@locale' => $langInfo->code)); ?>?setLanguage=1" title="<?php echo $this->translate($langInfo->name); ?>"><img src="/img/translate/<?php echo $this->translate($langInfo->code); ?>.png" alt="<?php echo $this->translate($langInfo->name); ?>"></a>
+<?php
+}
+?>
+</div>
+<div id="logo">
+<a href="<?php echo $this->url(array(), 'default');?>">Discover<span>PHP</span>.com</a>
+</div>
+<div id="cloud">
+<span style="font-size: 22px;">Doctrine</span>
+<span style="font-size: 16px;">CSS</span>
+<span style="font-size: 18px;">AJAX</span>
+<span style="font-size: 24px;">PHP</span>
+<span style="font-size: 20px;">HTML</span>
+<span style="font-size: 28px;">Zend Framework</span>
+<span style="font-size: 14px;">MySQL</span>
+<span style="font-size: 24px;">MVC</span>
+<span style="font-size: 14px;">JavaScript</span>
+<span style="font-size: 22px;">OOP</span>
+<span style="font-size: 18px;">jQuery</span>
+</div>
+<div id="genesis">
+<?php echo $this->translate('DiscoverPHP.com is an open source project to learn Zend Framework. Come <a href="%s">here</a> for more informations.', $this->url(array(), 'genesis')); ?>
+</div>
+</header>
+
+<?php
+$partial = array('menu.phtml', 'default');
+$this->navigation()->anchorMenu()->setPartial($partial);
+echo $this->navigation()->anchorMenu()->render();
+
+echo $this->layout()->content;
+?>
+
+<footer>
+<div id="links">
+<a href="<?php echo $this->url(array(), 'default');?>"><?php echo $this->translate('Home'); ?></a>
+<a href="<?php echo $this->url(array(), 'genesis');?>"><?php echo $this->translate('Genesis'); ?></a>
+<a href="<?php echo $this->url(array(), 'source');?>"><?php echo $this->translate('Download source'); ?></a>
+<a href="<?php echo $this->url(array(), 'contact');?>"><?php echo $this->translate('Contact'); ?></a>
+</div>
+
+<div id="logos">
+<a href="http://php.net/"><img src="/img/logos/php.png" alt="PHP" /></a>
+<a href="http://framework.zend.com/"><img src="/img/logos/zf.png" alt="Zend Framework" /></a>
+<a href="http://www.mysql.com/"><img src="/img/logos/mysql.png" alt="MySQL" /></a>
+<a href="http://www.doctrine-project.org/"><img src="/img/logos/doctrine.png" alt="Doctrine" /></a>
+<a href="http://www.w3.org/TR/html5/"><img src="/img/logos/html5.png" alt="HTML5" /></a>
+<a href="http://jquery.com/"><img src="/img/logos/jquery.png" alt="jQuery" /></a>
+</div>
+</footer>
+
+</div>
+
+</body>
+</html>
