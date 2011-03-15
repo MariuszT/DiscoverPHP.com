@@ -21,9 +21,16 @@ class Application_Model_FunctionForm
 
                     if ($this->_checkCopyPost($form, $function)) {
                         $formData = $request->getPost();
-                        $form->getElement('source')->setValue($formData['result']);
-                        $form->getElement('result')->setValue($this->_functionExec($function, $formData['result']));
-                        $this->_addCopyButton($form, $function);
+                        $tmp = $formData['source'];
+                        $formData['source'] = $formData['result'];
+                        $formData['result'] = $tmp;
+                        if ($form->isValid($formData)) {
+                            $form->getElement('source')->setValue($formData['source']);
+                            $form->getElement('result')->setValue($this->_functionExec($function, $formData['source']));
+                            $this->_addCopyButton($form, $function);
+                        } else {
+                            $form->getElement('result')->setValue('');
+                        }
                     } else if ($this->_checkPost($form, $function)) {
                         $form->getElement('result')->setValue($this->_functionExec($function));
                         $this->_addCopyButton($form, $function);
@@ -75,9 +82,7 @@ class Application_Model_FunctionForm
         $formData = Zend_Controller_Front::getInstance()->getRequest()->getPost();
 
         if (isset($formData['copy_' . $function])) {
-            if ($form->isValid($formData)) {
-                return TRUE;
-            }
+            return TRUE;
         }
 
         return FALSE;
