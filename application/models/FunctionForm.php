@@ -21,11 +21,8 @@ class Application_Model_FunctionForm
 
                     if ($this->_checkCopyPost($form, $function)) {
                         $formData = $request->getPost();
-                        $tmp = $formData['source'];
                         $formData['source'] = $formData['result'];
-                        $formData['result'] = $tmp;
                         if ($form->isValid($formData)) {
-                            $form->getElement('source')->setValue($formData['source']);
                             $form->getElement('result')->setValue($this->_functionExec($function, $formData['source']));
                             $this->_addCopyButton($form, $function);
                         } else {
