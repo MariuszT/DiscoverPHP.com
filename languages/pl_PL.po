@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: DiscoverPHP.com\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-03-11 01:56+0100\n"
-"PO-Revision-Date: 2011-03-14 15:24+0100\n"
+"PO-Revision-Date: 2011-03-15 01:31+0100\n"
 "Last-Translator: Mariusz Tarnaski <mariusz.tarnaski@wp.pl>\n"
 "Language-Team:  <mariusz.tarnaski@wp.pl>\n"
 "MIME-Version: 1.0\n"
@@ -356,6 +356,9 @@ msgstr "operacje na wielkości znaków w stringach"
 #: Functions errors messages
 msgid "Value is required and can't be empty"
 msgstr "Wartość jest wymagana, nie może być pusta"
+
+msgid "Maximum length is %max% characters"
+msgstr "Maksymalna długość to %max% znaków"
 
 msgid "FALSE - this is not base64 encoded data"
 msgstr "FAŁSZ - to nie jest wartość zakodowane w base64"

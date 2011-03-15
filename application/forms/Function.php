@@ -10,7 +10,7 @@ class Application_Form_Function extends Zend_Form
         $this->setAction(NULL)->setMethod('post');
 
         $source = $this->createElement('textarea', 'source', array('label' => $this->getView()->translate('source data for') . ' ' . $this->_name, 'rows' => 6, 'cols' => 40, 'id' => 'source_' . self::$counter));
-        $source->addValidator('stringLength', false, array(1, 5000))
+        $source->addValidator('stringLength', false, array(1, 5000, 'messages' => array(Zend_Validate_StringLength::TOO_LONG => 'Maximum length is %max% characters')))
         ->addDecorator(array('row' => 'HtmlTag'), array('tag' => 'dl', 'class' => 'source-row'))
         ->setRequired(true);
 
